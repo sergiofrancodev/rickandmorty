@@ -10,9 +10,8 @@ const RickAndMortyApp = () => {
 
     useEffect(() =>{
 
-        const random = Math.floor(Math.random() * 126) +1;
 
-        axios.get(`https://rickandmortyapi.com/api/location/${random}`).then(res =>{
+        axios.get(`https://rickandmortyapi.com/api/location/1`).then(res =>{
             setLocation(res.data);
         } )
 
@@ -28,6 +27,7 @@ const RickAndMortyApp = () => {
 
     return (
         <>
+
         <div className='box-search'>
         <input 
         type="text" 
@@ -41,9 +41,15 @@ const RickAndMortyApp = () => {
             
             <h1 className='location-name'><b>Location Name: </b>{location.name}</h1>
 
-            <div><span className='info-cards'><b>Type: </b>{location.type}</span></div>
-            <div><span className='info-cards'><b>Dimension:</b> {location.dimension}</span></div>
-            <div><span className='info-cards'><b>Population: </b>{location.residents?.length}</span></div>
+
+<div className='info-world'>
+<div className='info-world-cart'><b className='title-world'>Dimension:</b> {location.dimension}</div>
+<div className='info-world-cart'><b className='title-world'>Type: </b>{location.type}</div>
+
+<div className='info-world-cart'><b className='title-world'>Population: </b>{location.residents?.length}</div>
+
+</div>
+
 
             
         </div>
@@ -56,6 +62,12 @@ const RickAndMortyApp = () => {
 
 )}
       </ul>
+      <div>
+    <div className="squares1"></div>
+    <div className="squares2"></div>
+    <div className="squares3"></div>
+    <div className="squares4"></div>
+  </div>
         </>
     );
 };

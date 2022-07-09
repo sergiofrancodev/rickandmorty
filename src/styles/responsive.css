@@ -1,0 +1,223 @@
+@media screen and (min-width: 715px){
+    :root {
+        --color-primary: #FFFFFF
+      }
+      
+      
+      .h1 {
+        font-size: 80px;
+      
+      }
+
+      
+      .box-search {
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        width: 100%;
+      
+      }
+      
+      .box-search>input {
+        width: 45%;
+        padding: 1rem 3rem; 
+        font-size: 30px;   
+      }
+      
+      .box-search>button {
+        padding: 1rem 2rem;
+        font-size: 30px;
+      }
+      
+      
+      .location-name {
+        font-size: 50px;
+      }
+      
+      .location-name>b {
+        font-size: 50px;
+      
+      }
+      
+      .info-world {
+        gap: 1.5rem;
+      }
+      .info-world-cart {
+        font-size: 40px;
+      }
+      .title-world {
+        font-size: 40px;
+      }
+      .cards {
+        grid-template-columns: repeat(2, 1fr);
+      }
+ 
+      
+      .card>h2 {
+        font-size: 40px;
+      }
+
+      
+      .info-residents {
+        font-size: 24px;
+      }
+      
+      .info-residents>span {
+        font-size: 42px;
+      }
+      
+      
+     
+      
+    
+      .footer{
+        padding-bottom: 2rem;
+        font-size: 50px;
+      }
+}
+@media screen and (min-width: 1000px){
+    :root {
+        --color-primary: #FFFFFF
+      }
+      
+      
+      .h1 {
+        font-size: 70px;
+      
+      }
+
+      
+      
+      .box-search>input {
+        width: 45%;
+        padding: 1rem 1rem; 
+        font-size: 26px;   
+      }
+      
+      .box-search>button {
+        padding: 1rem 1rem;
+        font-size: 26px;
+      }
+      
+      
+      .location-name {
+        font-size: 40px;
+      }
+      
+      .location-name>b {
+        font-size: 40px;
+      
+      }
+      
+      .info-world {
+        gap: 2.5rem;
+      }
+      .info-world-cart {
+        font-size: 25px;
+        padding: 1rem 2rem;
+
+      }
+      .title-world {
+        font-size: 20px;
+      }
+      .cards {
+        grid-template-columns: repeat(3, 1fr);
+      }
+ 
+      
+      .card>h2 {
+        font-size: 28px;
+        margin-bottom: 1rem;
+      }
+
+      
+      .info-residents {
+        font-size: 16px;
+      }
+      
+      .info-residents>span {
+        font-size: 30px;
+      }
+      
+      
+     
+      
+    
+      .footer{
+        padding-bottom: 2rem;
+        font-size: 50px;
+      }
+}
+
+@media screen and (min-width: 1281px){
+    :root {
+        --color-primary: #FFFFFF
+      }
+      
+      
+      .h1 {
+        font-size: 80px;
+      
+      }
+
+      
+      
+      .box-search>input {
+        width: 30%;
+        padding: 1rem 1rem; 
+        font-size: 26px;   
+      }
+      
+      .box-search>button {
+        padding: 1rem 1rem;
+        font-size: 26px;
+      }
+      
+      
+      .location-name {
+        font-size: 42px;
+      }
+      
+      .location-name>b {
+        font-size: 42px;
+      
+      }
+      
+      .info-world {
+        gap: 2.5rem;
+      }
+      .info-world-cart {
+        font-size: 30px;
+        padding: 1rem 2rem;
+
+      }
+      .title-world {
+        font-size: 25px;
+      }
+      .cards {
+        grid-template-columns: repeat(4, 1fr);
+      }
+ 
+      
+      .card>h2 {
+        font-size: 28px;
+        margin-bottom: 1rem;
+      }
+
+      
+      .info-residents {
+        font-size: 16px;
+      }
+      
+      .info-residents>span {
+        font-size: 30px;
+      }
+      
+      
+     
+      
+    
+      .footer{
+        padding-bottom: 2rem;
+        font-size: 50px;
+      }
+}
